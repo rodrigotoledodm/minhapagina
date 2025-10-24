@@ -5,53 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
     <title>Minha Pagina Pessoal</title>
 </head>
 <body>
     <header>
-        <h1>Pagina Pessoal do Rodrigo Toledo</h1>
-        <h4> Aqui deixo minhas preferencias e curiosidades sobre mim ...</h4>
+        <h1>Página Pessoal do Rodrigo Toledo</h1>
+        <h4>Aqui deixo minhas preferências e curiosidades sobre mim...</h4>
     </header>   
-</body>
+    
     <nav>
-        <li><a href=Filme>Filme que já assiti</li>
-        <li><a href=livro>Livro que li</li>
-        <li><a href=sobre>Um pouco sobre mim</li>
+        <ul>
+            <li><a href="#filme">Filmes que assisti</a></li>
+            <li><a href="#livro">Livros que li</a></li>
+            <li><a href="#sobre">Um pouco sobre mim</a></li>
+        </ul>
     </nav>
+    
     <main>
         <section id="filme"> 
             <h3>Filme que já assisti</h3>
-            <h4>O Senhor dos Aneis</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/tDsxmvt-4Cs?si=JQChUN9PCLUJIHzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <p>Um jornada pela terra Media , em um mundo fantastico ,que nos ensina o valor da amizade e compromentimento.</p>
+            <h4>O Senhor dos Anéis</h4>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/tDsxmvt-4Cs?si=JQChUN9PCLUJIHzw" title="Trailer do filme O Senhor dos Anéis: A Sociedade do Anel" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p>Uma jornada pela Terra Média, em um mundo fantástico, que nos ensina o valor da amizade e comprometimento.</p>
         </section>
+        
         <section id="livro">
-            <h3>Livro de Li</h3>
-            <h4>O Diario de um Mago</h4>
-            <img src="https://http2.mlstatic.com/D_NQ_NP_646951-MLB45855238673_052021-O.webp" width="250" height="400">
-            <p>Um busca pessoal sobre sua identidade,volores e fé. </p>
+            <h3>Livro que Li</h3>
+            <h4>O Diário de um Mago</h4>
+            <img src="https://http2.mlstatic.com/D_NQ_NP_646951-MLB45855238673_052021-O.webp" width="250" height="400" alt="Capa do livro O Diário de um Mago, de Paulo Coelho.">
+            <p>Uma busca pessoal sobre sua identidade, valores e fé.</p>
         </section>
+        
         <section id="sobre">
             <h2>Sobre mim</h2>
             <div class="profile-image">
-            <img src="photoperfil.jpg" alt="">
+                <img src="photoperfil.jpg" alt="Foto de perfil de Rodrigo Toledo.">
             </div>
             <h3>Rodrigo Toledo de Melo</h3>
             <p>
                 "Sou um indivíduo de caráter sólido, fundamentado na lealdade e na amizade, e me reconheço pela força que sustenta meus valores. Acima de tudo, o amor pela minha família é o pilar central da minha vida.
                 Minha paixão profissional se manifesta na modelagem de esculturas, onde exerço minha criatividade. Nos momentos de lazer, sou guiado pelo universo vibrante dos desenhos e pela energia contagiante do rock, que complementam meu perfil como artista dedicado e uma pessoa com profundos laços afetivos."
             </p>
-            
         </section>
-        </main>
-            <footer>
-           <div class="social-icons">
-              <a href="https://github.com/rodrigotoledodm" target="_blank"><i class="fab fa-github"></i></a>
-            </div>
-    
-                <p>© 2025 Rodrigo Toledo de Melo . Todos os direitos reservados.</p>
-            </footer>
-    </body>
-    </html>
     </main>
+    
+    <footer>
+       <div class="social-icons">
+          <a href="https://github.com/rodrigotoledodm" target="_blank" aria-label="Link para o perfil do Rodrigo Toledo no GitHub"><i class="fab fa-github"></i></a>
+          
+          <a href="https://www.instagram.com/rodrigomeloarthur?utm_source=qr&igsh=bWFsdm04MDM5YTZ3" target="_blank" aria-label="Link para o perfil do Rodrigo Toledo no Instagram"><i class="fab fa-instagram"></i></a>
+          
+          <a href="https://www.tiktok.com/@rodrigotoledo056?_t=ZM-90p686Phoia&_r=1" target="_blank" aria-label="Link para o perfil do Rodrigo Toledo no TikTok"><i class="fab fa-tiktok"></i></a>
+          
+          <a href="https://k.kwai.com/u/@rodminiaturas/lQCzsBle" target="_blank" aria-label="Link para o perfil do Rodrigo Toledo no Kwai"><i class="fas fa-share-alt"></i></a>
+        </div>
+
+        <p>© 2025 Rodrigo Toledo de Melo. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>
